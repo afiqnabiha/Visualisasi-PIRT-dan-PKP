@@ -1,0 +1,37 @@
+git comand (local)
+$ git init (inisiasi repo git)
+$ git add <file(s)> (menambahkan file) 
+$ git add . (menambahkan semua)
+$ git status (cek status git)
+$ git commit (commit) 
+$ git commit -m (perintah commit langsung) 
+$ git commit -am (perintah commit "modified")
+$ git config (configurasi git)
+$ git branch (menambahkan branch)
+$ git help
+$ git config --list
+$ git config --global user.email <email>
+$ git config --global user.name <username>
+$ git clone <url repo github> (cloning repo github-> local)
+$ git remote
+$ git remote -v (lebih spesifik)
+$ git push (push ddcommit ke github)
+$ mkdir <name folder> (buat folder baru)
+
+
+
+
+
+-----
+$ ls (cek file)
+$ cd <nama folder> (menuju folder tsb)
+
+-----
+$ alias graph="git log --all --decorate --graph"
+
+
+
+
+
+
+

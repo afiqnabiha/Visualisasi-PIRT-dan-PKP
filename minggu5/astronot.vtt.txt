@@ -1,0 +1,7 @@
+WEBVTT
+0
+00:00:00.000 --> 00:00:02.000
+Astronot berjalan di bulan
+1
+00:00:04.000 --> 00:00:06.000
+Astronot terdia.

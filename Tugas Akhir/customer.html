@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Login</title>
+
+  <script src="JavaScript/javascriptlogin.js"></script>
+
+    <link rel="stylesheet" href="style2.css">
+
+</head>
+<body>
+  <form action="index.html" method="get" id="myForm" onsubmit=" return validasi()">
+    <p class="celukin">Daftar Celukin</p>
+    Username  <input type="text" name="username" placeholder="username">
+    Email  <input type="text" name="email" placeholder="email">
+    Password  <input type="password" name="password" placeholder="password">
+    <p>Silahkan isi </p>
+    <input class="login" type="submit" name="submit" value="Daftar">
+    
+    
+
+  <script>
+      function validasi(){
+    var username = document.forms["myForm"]["username"].value;
+    var password = document.forms["myForm"]["password"].value;
+    if( username == "" && password == ""){
+      alert("Masukan username, email dan password Anda ");  
+      return false;
+    }
+
+    else{
+      return true;
+    }
+  }
+  </script>
+</body>
+
+</html>
